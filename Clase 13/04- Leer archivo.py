@@ -2,10 +2,11 @@ print('*** Abrir un archivo en modo lectura ***')
 
 nombre_archivo = 'mi_archivo.txt'
 
-with open(nombre_archivo, 'r') as archivo:
+with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
     contenido = archivo.read()
     print('Contenido del archivo:')
     print(contenido)
+    print(type(contenido))  # Imprime el tipo de dato del contenido
     
 print(f'Se ha leído el archivo {nombre_archivo} con éxito.')
 

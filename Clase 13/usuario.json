@@ -1,0 +1,31 @@
+{
+  "nombre": "Omar",
+  "edad": 35,
+  "direccion": {
+    "calle": "Av. Siempre Viva",
+    "numero": 742,
+    "ciudad": "Springfield",
+    "pais": "Estados Unidos"
+  },
+  "telefonos": [
+    {"tipo": "casa", "numero": "555-1234"},
+    {"tipo": "movil", "numero": "555-5678"}
+  ],
+  "hobbies": ["lectura", "ajedrez", "ciclismo"],
+  "activo": true,
+  "historial_compras": [
+    {
+      "fecha": "2025-06-01",
+      "items": [
+        {"producto": "Libro", "precio": 15.5},
+        {"producto": "Lápiz", "precio": 1.2}
+      ]
+    },
+    {
+      "fecha": "2025-07-15",
+      "items": [
+        {"producto": "Bicicleta", "precio": 250}
+      ]
+    }
+  ]
+}

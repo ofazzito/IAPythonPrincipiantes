@@ -8,12 +8,12 @@ frases = [
 ]
 
 # Crear el archivo y escribir las frases
-with open('frases_favoritas.txt', 'w') as archivo:
+with open('frases_favoritas.txt', 'w', encoding='utf-8') as archivo:
     for frase in frases:
         archivo.write(frase + "\n")
 
 # Leer una frase al azar
-with open('frases_favoritas.txt', 'r') as archivo:
+with open('frases_favoritas.txt', 'r', encoding='utf-8') as archivo:
     lineas = archivo.readlines()
     frase_aleatoria = random.choice(lineas).strip()
     print(f"Frase aleatoria: {frase_aleatoria}")

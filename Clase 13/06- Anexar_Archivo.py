@@ -2,7 +2,7 @@ print('*** Anexar información Archivo ***')
 
 nombre_archivo = 'mi_archivo.txt'
 
-with open(nombre_archivo, 'a') as archivo:
+with open(nombre_archivo, 'a', encoding='utf-8') as archivo:
     # Anexar informacion al archivo
     archivo.write('Anexando informacion ... \n')
     archivo.write('Saliendo de anexar informacion...\n')
