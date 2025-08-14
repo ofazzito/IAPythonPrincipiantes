@@ -131,3 +131,4 @@ conn.commit()
 conn.close()
 print("[DEBUG] Conexión cerrada correctamente.")
 
+
