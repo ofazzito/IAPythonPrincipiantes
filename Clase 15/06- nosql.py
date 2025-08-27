@@ -13,9 +13,7 @@ empleados = db['empleados']
 # Crear un documento JSON (donde se almacena la información de un empleado)
 nuevo_empleado = {
     "nombre": "Ana López",
-    "puesto": "Analista de Datos",
-    "edad": 30,
-    "skills": ["Python", "SQL", "Estadística"]
+    "puesto": "Analista de Datos"
 }
 
 # Insertar el documento en la colección
@@ -27,7 +25,8 @@ nuevo_empleado = {
     "nombre": "Jose Perez",
     "puesto": "Desarrollador Python",
     "edad": 28,
-    "skills": ["Python", "SQL"]
+    "skills": ["Python", "SQL"],
+    "DNI": "12345678A"
 }
 
 # Insertar el documento en la colección
@@ -35,5 +34,5 @@ empleado_id = empleados.insert_one(nuevo_empleado).inserted_id
 print(f"Empleado insertado con ID: {empleado_id}")
 
 # Buscar el documento insertado
-#empleado = empleados.find_one({"nombre": "Ana López"})
-#print("Documento encontrado:", empleado)
+empleado = empleados.find_one({"nombre": "Ana López"})
+print("Documento encontrado:", empleado)

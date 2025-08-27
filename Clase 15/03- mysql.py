@@ -75,8 +75,8 @@ try:
     INSERT INTO estudiantes (id, nombre, edad, curso)
     VALUES (%s, %s, %s, %s)
     """, [
-        (1, 'Ana', 20, 'Matemáticas'),
-        (2, 'Juan', 22, 'Historia'),
+        (4, 'Ana', 20, 'Matemáticas'),
+        (5, 'Juan', 22, 'Historia'),
         (3, 'Maria', 21, 'Física')
     ])
     print("[DEBUG] Datos insertados correctamente.")
