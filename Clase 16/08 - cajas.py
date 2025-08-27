@@ -14,7 +14,7 @@ ventana.configure(background='#1d2d44')
 
 # Caja de texto
 caja_texto = ttk.Entry(ventana, font=('Arial', 15))
-# caja_texto.pack(pady=20)
+caja_texto.pack(pady=20)
 
 # Agregar un boton
 # boton = ttk.Button(ventana, text='Enviar', command=mostrar)

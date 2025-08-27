@@ -8,6 +8,7 @@ ventana.title('Manejo de etiquetas')
 ventana.configure(background='#1d2d44')
 
 # Creamos una etiqueta (label)
+etiqueta = tk.Label(ventana, text='Saludos')
 #etiqueta = tk.Label(ventana, text='Saludos', font=('Arial', 20), bg='#1d2d44', fg='white')
 #etiqueta = ttk.Label(ventana, text='Saludos')
 
