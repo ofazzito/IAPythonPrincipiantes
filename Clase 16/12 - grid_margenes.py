@@ -25,7 +25,7 @@ ventana.rowconfigure(2, weight=1)
 
 boton1.grid(row=0, column=0, sticky=tk.NSEW, ipadx=20, pady=20 )
 # boton1.grid(row=0, column=0, padx=20, pady=20, ipadx=30, ipady =30)
-boton2.grid(row=0, column=1, sticky=tk.SE, ipadx= 20, ipady=20)
+boton2.grid(row=0, column=1, sticky=tk.SE,  ipady=20)
 boton3.grid(row=0, column=2, sticky=tk.NW)
 
 # Publicar de manera vertical
